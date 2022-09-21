@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_150sdp"
+            app:layout_constraintBottom_toTopOf="@id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_weight="4"
+            style="@style/blankScreenLinearLayout">
+
+            <TextView
+                style="@style/blankScreen"
+                android:text="All"
+                android:textFontWeight="400" />
+
+            <TextView
+                style="@style/blankScreen"
+                android:text="TV Shows"
+                android:textFontWeight="400" />
+
+            <TextView
+                style="@style/blankScreen"
+                android:text="Movies"
+                android:textFontWeight="400" />
+
+            <TextView
+                style="@style/blankScreen"
+                android:text="My List"
+                android:textFontWeight="400" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:src="@drawable/ic_cross"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/blankScreenButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
