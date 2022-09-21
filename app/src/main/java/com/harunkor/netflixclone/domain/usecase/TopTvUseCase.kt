@@ -31,5 +31,4 @@ class TopTvUseCase @Inject constructor(private val topTvRepository: TopTvReposit
 
     }
 
-
 }

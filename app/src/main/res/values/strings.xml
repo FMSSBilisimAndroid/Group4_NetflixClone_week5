@@ -3,4 +3,11 @@
     <string name="add_profile">Add Profile</string>
     <string name="started_list_item_title">Kids</string>
     <string name="citation">Citation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="smart_downloads">Smart Downloads</string>
+    <string name="introducing_downloads_for_you">Introducing Downloads For You</string>
+    <string name="lorem100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quam dui, vivamus bibendum ut. A morbi mi tortor ut felis non accumsan accumsan quis. Massa, id ut ipsum aliquam enim non posuere pulvinar diam.</string>
+    <string name="setup">Setup</string>
+    <string name="find_something_to_download">Find Something To Download</string>
 </resources>

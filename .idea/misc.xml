@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Empedocles/Documents/workspace/NetflixClone/app/src/main/res/drawable/download_screen_elipse.xml" value="0.2955" />
+        <entry key="..\:/Users/Empedocles/Documents/workspace/NetflixClone/app/src/main/res/layout/fragment_download.xml" value="0.25" />
         <entry key="app/src/main/res/drawable/ic_search_mic_icon.xml" value="0.1985" />
         <entry key="app/src/main/res/drawable/search_list_item_background.xml" value="0.1985" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
@@ -19,5 +21,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.12" />
+      </ProjectState>
+    </option>
   </component>
 </project>

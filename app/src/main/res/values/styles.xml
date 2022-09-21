@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+    <style name="downloadSubTitleStyle">
+        <item name="fontFamily">@font/sf_pro_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="downloadScreenTitleStyle">
+        <item name="fontFamily">@font/sf_pro_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="downloadScreenParagraph">
+        <item name="fontFamily">@font/sf_pro_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+    </style>
+
+    <style name="downloadScreenButtonStyle">
+        <item name="fontFamily">@font/sf_pro_regular</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:context=".presentation.download.DownloadFragment">
+
+        <TextView
+            android:id="@+id/downloadScreenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_36sdp"
+            style="@style/downloadScreenTitleStyle"
+            android:text="@string/smart_downloads"
+            android:textFontWeight="400"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/downloadScreenSubTitle"
+            style="@style/downloadSubTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_11sdp"
+            android:layout_marginTop="@dimen/_27sdp"
+            android:text="@string/introducing_downloads_for_you"
+            android:textFontWeight="700"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/downloadScreenTitle" />
+
+        <TextView
+            android:id="@+id/downloadScreenParagraph"
+            android:layout_width="@dimen/_265sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_11sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:lineHeight="@dimen/_14sdp"
+            style="@style/downloadScreenParagraph"
+            android:text="@string/lorem100"
+            android:textFontWeight="400"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/downloadScreenSubTitle" />
+
+
+        <View
+            android:id="@+id/downloadScreenEllipse"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:background="@drawable/download_screen_ellipse"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/downloadScreenParagraph" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/downloadScreenSetupButton"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_11sdp"
+            android:layout_marginTop="50dp"
+            style="@style/downloadScreenButtonStyle"
+            android:backgroundTint="@color/downloadScreenSetupButtonColor"
+            android:text="@string/setup"
+            android:textFontWeight="400"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/downloadScreenEllipse" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/downloadScreenDownloadButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_32sdp"
+            style="@style/downloadScreenButtonStyle"
+            android:layout_marginTop="@dimen/_38sdp"
+            android:backgroundTint="@color/downloadScreenDownloadButtonColor"
+            android:text="@string/find_something_to_download"
+            android:textAllCaps="false"
+            android:textFontWeight="700"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/downloadScreenSetupButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
